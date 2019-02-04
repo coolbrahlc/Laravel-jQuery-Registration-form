@@ -26,9 +26,9 @@ class PeopleStoreRequest extends FormRequest
         return [
             'name'=>'required|max:255',
             'last_name'=> 'required|max:255',
-            'country' => 'required',
+            //'country' => 'required',
             'subject' => 'max:255',
-            'email' => 'required|unique:people,email|max:255',
+            //'email' => 'required|unique:people,email|max:255',
             'phone' => 'max:255',
         ];
     }
